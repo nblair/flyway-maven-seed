@@ -1,5 +1,7 @@
 ## flyway-maven-seed
 
+[![Build Status](https://travis-ci.org/nblair/flyway-maven-seed.svg?branch=master)](https://travis-ci.org/nblair/flyway-maven-seed)
+
 This project is intended to serve as an example on how to manage a set of DDL or other database statements with a tool called Flyway: http://flywaydb.org/
 
 ### Requirements
