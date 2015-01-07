@@ -31,9 +31,10 @@ Each migration file is run in a separate transaction.
 
 ### Running
 
-1. Copy flyway-SAMPLE.properties as flyway.properties.
-2. Edit flyway.properties to match the database environment you plan to run against. 
-3. Execute the following command:
+This project is configured by default to execute the migrations against a local [Hypersql](http://hsqldb.org/) database (files are stored in target/hsqldb/).
+
+1. *If you need to run the database migrations against a different database*, copy flyway-SAMPLE.properties as flyway.properties and edit the driver and credentials to match your environment. Otherwise proceed to step 2.
+2. Execute the following command:
 
 > mvn compile flyway:migrate
 
